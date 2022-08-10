@@ -1,5 +1,5 @@
 <template lang="pug">
-div loading...
+div Pro page...
 </template>
 <script setup>
 definePageMeta({ middleware: 'auth' })
