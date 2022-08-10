@@ -6,6 +6,6 @@
 </template>
 <script setup>
 onBeforeMount(() => {
-  auth.session = useSupabaseClient().auth.session()
+  useSupabaseClient().auth.session()
 })
 </script>
