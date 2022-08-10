@@ -5,4 +5,10 @@ export default defineNuxtConfig({
   target: 'static',
   buildModules: ['@nuxtjs/tailwindcss'],
   modules: ['@nuxtjs/supabase'],
+  supabase: {
+    client: {
+      autoRefreshToken: true,
+      persistSession: true,
+    },
+  },
 })
