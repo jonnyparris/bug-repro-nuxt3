@@ -4,8 +4,8 @@
     main.px-5.md_p-5
       slot.flex.flex-col
 </template>
-<script setup>
+<!-- <script setup>
 onBeforeMount(() => {
   auth.session = useSupabaseClient().auth.session()
 })
-</script>
+</script> -->
